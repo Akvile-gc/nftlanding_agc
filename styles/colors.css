@@ -1,0 +1,20 @@
+.wrapper {
+    background-color: white;
+}
+
+.pink {
+    color: rgb(255,57,152);
+}
+
+.t_grey,
+a {
+    color: rgb(85,85,85);  
+}
+
+.t_lg_grey {
+    color: rgb(119,119,119);  
+}
+
+.gloop {
+    color: rgb(236,119,53);  
+}
