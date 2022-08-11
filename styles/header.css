@@ -1,18 +1,19 @@
 header {
-    position: sticky;
+    /* position: sticky; */
     width: 100%;
     background-color: white;
     top: 0;
 }
 
 .header_full {
+    width: 85%;
     display: flex;
     justify-content: space-between;
 }
 
 .logo a img {
     display: inline-block;
-    width: 100%;
+    width: 75%;
 }
 
 .nav {
@@ -23,16 +24,20 @@ header {
     overflow: hidden;
     max-height: 0;
     transition: max-height .5s ease-out;   
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
+    margin: 2.5rem 0 0 0;
 }
 
 li {
     list-style: none;
+
 }
 
 .nav ul li a {
     display: block;
     text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .nav ul li a:hover {

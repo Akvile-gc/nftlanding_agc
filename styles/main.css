@@ -1,0 +1,41 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.hero {
+    padding: 0.5rem 0;
+    width: 100%;
+    height: 75vh;
+    background: url(/img/graphic.svg) no-repeat center / cover;
+    background-position: top -15px right -150%;
+    background-size: 275px;
+}
+
+.no_other {
+    width: 60%;
+    height: 50vh;
+}
+
+.colored_field {
+    background: linear-gradient(0.25turn, #ff7981, #f47e53, #d3bb86);
+}
+
+.partners img:nth-child(4) {
+    display: none;
+}
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: baseline;
+}
+
+.partners img {
+    width: 95%;
+    height: 100%;
+    object-fit: contain;
+}
+

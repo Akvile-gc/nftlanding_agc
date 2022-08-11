@@ -83,7 +83,7 @@
 }
 
 .pt_2 {
-    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .pb_0 {
@@ -130,9 +130,18 @@
     margin: auto;
 }
 
-/* font sizes */
+/* font sizes & weights*/
 
 nav a {
     font-size: medium;
 }
 
+.pink,
+.button,
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+}
