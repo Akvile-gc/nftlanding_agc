@@ -2,20 +2,42 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    align-items: center;
+}
+
+.hero,
+.green_w {
+    padding: 0.5rem 0;
+    width: 100%;
+    height: 100%;
 }
 
 .hero {
-    padding: 0.5rem 0;
-    width: 100%;
-    height: 75vh;
+    /* height: 60vh; */
     background: url(/img/graphic.svg) no-repeat center / cover;
     background-position: top -15px right -150%;
     background-size: 275px;
 }
 
-.no_other {
+/* .hero,
+.green_w {
+    padding: 0.5rem 0;
+    width: 100%;
+    height: 100%;
+    background: url(/img/upsell-footer-image.svg) no-repeat bottom / cover;
+    background-position: bottom right;
+    background-size: 150px;
+} */
+
+.green_w{
+    background: url(/img/upsell-footer-image.svg) no-repeat bottom / cover;
+    background-position: bottom right 50px;
+    background-size: 100px;
+}
+
+.hero .no_other {
     width: 60%;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .colored_field {
@@ -39,3 +61,20 @@
     object-fit: contain;
 }
 
+.grey_line {
+    border-top: 1px solid rgb(85,85,85);
+}
+
+.green_w{
+    padding: 0.5rem 0;
+    width: 100%;
+    height: 100%;
+    background: url(/img/upsell-footer-image.svg) no-repeat bottom / cover;
+    background-position: bottom right;
+    background-size: 150px;
+}
+
+.green_w .no_other {
+    width: 45%;
+    /* height: 50vh; */
+}

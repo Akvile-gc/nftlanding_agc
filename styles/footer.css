@@ -9,6 +9,11 @@
     gap: 0.5rem;
 }
 
+.icon_s svg {
+    width: 5% !important;
+    padding-left: 1rem;
+}
+
 .right {
     display: grid;
     grid-template-columns: 1fr 1fr;

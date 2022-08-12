@@ -6,3 +6,5 @@
     font-family: 'Kanit', sans-serif;
 }
 
+html, body {width: auto!important; overflow-x: hidden!important} 
+
