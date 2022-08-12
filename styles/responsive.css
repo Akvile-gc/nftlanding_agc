@@ -1,0 +1,124 @@
+@media screen and (min-width: 767px) {
+/* responsive sizes */       
+    h1,
+    h2 {
+        font-size: 3em;
+    }
+
+    p,
+    h3 {
+        font-size: 1.5em; 
+    }    
+
+    /* responsive header */       
+    .header_full {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    
+    .logo a img {
+        width: 100%;
+    }
+    
+    .nav {
+        height: 100%;
+        background-color: transparent;
+        max-height: 100%;
+        margin: 0;
+        text-align: end;
+        position: static;
+        padding: 0;
+    }
+    
+    input,
+    label,
+    .no_other .grey_line /*part of main*/ {
+        display: none;
+    }
+
+    .nav,
+    .nav ul li,
+    .nav ul li a {
+        display: inline-block;
+    }
+
+    /* responsive main */       
+
+    .hero,
+    .green_w {
+    width: 100%;
+    }
+
+    .hero {
+        background-position: top right;
+        background-size: 500px;
+        height: 80vh;
+    }
+
+    .green_w{
+        background-position: bottom right;
+        background-size: 50px;
+    }
+
+    .hero .no_other {
+        width: 60%;
+    }
+
+    .colored_field {
+        background: linear-gradient(0.25turn, #ff5f8f, #fe8039, #98e6a8);
+        margin: 2rem;
+        border-radius: 20px;
+    }
+
+    .copyright p:last-child, /*part of footer*/
+    .partners img:nth-child(4) {
+        display: unset;
+    }
+
+    .partners {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5rem;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    
+    .limited_ed {
+        overflow-x: visible;
+    }
+       
+    .limited_ed > div {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+    
+    .green_w{
+        height: 60vh;
+        background-position: bottom right 200px;
+        background-size: 175px;
+    }
+
+    /* responsive footer */       
+
+    .lower_nav {
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+    
+    .right {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .foot {
+        margin: 0;
+    }   
+}

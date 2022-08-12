@@ -11,7 +11,8 @@
 
 .icon_s svg {
     width: 5% !important;
-    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgb(153, 153, 153);
 }
 
 .right {

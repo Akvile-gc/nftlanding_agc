@@ -23,16 +23,8 @@
 .ct h4 {
     margin: 0;
 }
-/* 
-.limted_ed {
-    display: flex;
-    flex-flow: row nowrap;
-    height: auto;
-    overflow-x: auto;
-    width: auto;
-} */
 
-/* .limited_ed {
+.limited_ed {
     overflow-x: scroll;
     display: flex;
     justify-content: flex-start;
@@ -46,5 +38,5 @@
 .limited_ed .card_img {
     max-width:100%;
     width: 100%;
-} */
+}
 
