@@ -1,0 +1,40 @@
+.lower_nav,
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+.left {
+    gap: 0.5rem;
+}
+
+.icon_s svg {
+    width: 3% !important;
+    padding-right: 1rem;
+    fill: rgb(153, 153, 153);
+}
+
+.right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.copyright p:last-child {
+    display: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+
+footer ul li {
+    padding: 0.3rem 0;
+}

@@ -1,0 +1,89 @@
+.header_full {
+    display: flex;
+    background-color: white;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.logo a img {
+    display: inline-block;
+    width: 75%;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;   
+    margin-top: 15rem;
+}
+
+li {
+    list-style: none;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.brg {
+    cursor: pointer;
+    float: right;
+}
+
+.brg_line {
+    background-color: rgb(153, 153, 153);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.brg_line::before,
+.brg_line::after{
+    background: rgb(153, 153, 153);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.brg_line::before{
+    top: 5px;
+}
+
+.brg_line::after{
+    top: -5px;
+}
+
+.side_menu {
+    display: none;
+}
+
+.side_menu:checked ~ nav {
+    max-height: 100%;
+}
+
+.side_menu:checked ~ .brg .brg_line {
+    background: transparent;
+}
+
+.side_menu:checked ~ .brg .brg_line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side_menu:checked ~ .brg .brg_line::after {
+    transform: rotate(45deg);
+    top: 0;    
+}

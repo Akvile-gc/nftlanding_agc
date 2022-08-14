@@ -1,0 +1,17 @@
+html, body {
+    width: auto!important; 
+    overflow-x: hidden!important;
+} 
+
+.wrapper {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+ul li a:hover {
+    color: rgb(255,57,152);
+}
+
+.cap {
+    text-transform: uppercase;
+}
