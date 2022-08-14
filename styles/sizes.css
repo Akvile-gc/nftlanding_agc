@@ -132,14 +132,20 @@
 
 /* font sizes & weights*/
 
-nav a {
-    font-size: medium;
+li a,
+h5,
+p {
+    font-size: 16px;
 }
 
-.pink,
 .button,
+.pink,
 h2 {
     font-weight: 500;
+}
+
+.pink {
+    font-size: 12px;
 }
 
 h2 {
@@ -148,9 +154,4 @@ h2 {
 
 p {
     font-weight: 300;
-    font-size: 16px;
-}
-
-h5 {
-    font-size: 16px;
 }

@@ -18,3 +18,7 @@ a {
 .gloop {
     color: rgb(236,119,53);  
 }
+
+.colored_field {
+    background: linear-gradient(0.25turn, #ff7981, #f47e53, #d3bb86);
+}

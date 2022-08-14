@@ -10,9 +10,9 @@
 }
 
 .icon_s svg {
-    width: 5% !important;
+    width: 3% !important;
     padding-right: 1rem;
-    color: rgb(153, 153, 153);
+    fill: rgb(153, 153, 153);
 }
 
 .right {

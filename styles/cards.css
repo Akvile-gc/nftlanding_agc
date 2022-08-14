@@ -24,6 +24,12 @@
     margin: 0;
 }
 
+.ct_in {
+    display: flex;
+    flex-direction: row;
+}
+
+
 .limited_ed {
     overflow-x: scroll;
     display: flex;

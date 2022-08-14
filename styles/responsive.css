@@ -1,16 +1,23 @@
 @media screen and (min-width: 767px) {
-/* responsive sizes */       
+
+    /* responsive sizes */       
+
     h1,
     h2 {
-        font-size: 3em;
+        font-size: 3rem;
     }
 
     p,
-    h3 {
-        font-size: 1.5em; 
+    .pink,
+    h4,
+    h5,
+    li a,
+    a {
+        font-size: 1.5rem; 
     }    
 
-    /* responsive header */       
+    /* responsive header */  
+
     .header_full {
         display: flex;
         justify-content: space-between;
@@ -23,13 +30,12 @@
     }
     
     .nav {
+        width: 50%;
         height: 100%;
-        background-color: transparent;
         max-height: 100%;
         margin: 0;
         text-align: end;
         position: static;
-        padding: 0;
     }
     
     input,
@@ -41,18 +47,13 @@
     .nav,
     .nav ul li,
     .nav ul li a {
-        display: inline-block;
+        display: inline;
     }
 
-    /* responsive main */       
-
-    .hero,
-    .green_w {
-    width: 100%;
-    }
-
-    .hero {
-        background-position: top right;
+    /* responsive main */ 
+          
+     .hero {
+        background-position: top right 10%;
         background-size: 500px;
         height: 80vh;
     }
@@ -63,7 +64,7 @@
     }
 
     .hero .no_other {
-        width: 60%;
+        width: 40%;
     }
 
     .colored_field {
@@ -98,6 +99,10 @@
         height: 60vh;
         background-position: bottom right 200px;
         background-size: 175px;
+    }
+
+    .grey_line {
+        margin: 0 2rem;
     }
 
     /* responsive footer */       

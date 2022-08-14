@@ -6,24 +6,26 @@
 }
 
 .hero {
-    /* height: 60vh; */
+    height: 60vh;
     background: url(/img/graphic.svg) no-repeat center / cover;
-    background-position: top -15px right -125%;
+    background-position: top -15px right -125px;
     background-size: 275px;
 }
 
 .green_w{
+    height: 60vh;
     background: url(/img/upsell-footer-image.svg) no-repeat bottom / cover;
-    background-position: bottom right 50px;
-    background-size: 50px;
+    background-position: bottom -10px right 10px;
+    background-size: 135px;
 }
 
 .hero .no_other {
     width: 60%;
 }
 
-.colored_field {
-    background: linear-gradient(0.25turn, #ff7981, #f47e53, #d3bb86);
+.partners img:first-child {
+    object-fit: cover;
+    object-position: 0;
 }
 
 .partners img:nth-child(4) {
@@ -33,7 +35,7 @@
 .partners {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 2rem;
     justify-content: baseline;
 }
 
@@ -44,16 +46,7 @@
 }
 
 .grey_line {
-    border-top: 1px solid rgb(85,85,85);
-}
-
-.green_w{
-    padding: 0.5rem 0;
-    width: 100%;
-    height: 100%;
-    background: url(/img/upsell-footer-image.svg) no-repeat bottom / cover;
-    background-position: bottom right;
-    background-size: 150px;
+    border-top: 1px solid rgb(227, 227, 227);
 }
 
 .green_w .no_other {
